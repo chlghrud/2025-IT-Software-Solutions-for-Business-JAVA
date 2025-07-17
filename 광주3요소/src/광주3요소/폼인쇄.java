@@ -80,7 +80,6 @@ public class ÆûÀÎ¼â extends JFrame {
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				count++;
-
 			}
 		});
 		button.setBounds(62, 197, 234, 47);
