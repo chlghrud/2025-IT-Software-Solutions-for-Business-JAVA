@@ -31,6 +31,7 @@ public class Model {
 		}
 	}
 	class user {
-		
+		public int uno, point;
+		public String id, pw, name;
 	}
 }

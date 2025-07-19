@@ -23,8 +23,8 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.border.AbstractBorder;
 
-public class UF extends JFrame {
-	private static ArrayList<UF> forms = new ArrayList<UF>();
+public class UF2 extends JFrame {
+	private static ArrayList<UF2> forms = new ArrayList<UF2>();
 	public String tag, befTag;
 	public static Statement stmt;
 	public static Connection con;
@@ -39,7 +39,7 @@ public class UF extends JFrame {
 		}
 	}
 
-	public UF() {
+	public UF2() {
 		getContentPane().setLayout(null);
 		getContentPane().setBackground(Color.white);
 		addWindowListener(new WindowAdapter() {
@@ -92,7 +92,7 @@ public class UF extends JFrame {
 		return b;
 	}
 
-	public void formOpen(UF uf) {
+	public void formOpen(UF2 uf) {
 		befTag = uf.tag;
 		forms.add(uf);
 	}
